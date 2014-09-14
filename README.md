@@ -8,6 +8,23 @@ var nyt = require('nyt');
 
 ## APIs
 
+<a name="Article Search"></a>Article Search
+<a name="Best Sellers"></a>Best Sellers
+<a name="Campaign Finance"></a>Campaign Finance
+<a name="Community"></a>Community
+<a name="Congress"></a>Congress
+<a name="Districts"></a>Districts
+<a name="Event Listings"></a>Event Listings
+<a name="Geographic"></a>Geographic
+<a name="Most Popular"></a>Most Popular
+<a name="Movie Reviews"></a>Movie Reviews
+<a name="Real Estate"></a>Real Estate
+<a name="Semantic"></a>Semantic
+<a name="Times Newswire"></a>Times Newswire
+<a name="Timestags"></a>Timestags
+
+---
+
 ### Article Search
 Search Times articles from 1851 to today, retrieving headlines, abstracts and links to associated multimedia.
 
