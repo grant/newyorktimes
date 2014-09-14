@@ -8,33 +8,20 @@ var nyt = require('nyt');
 
 ## APIs
 
-[Article Search](#Article-Search)
-
-[Best Sellers](#Best-Sellers)
-
-[Campaign Finance](#Campaign-Finance)
-
-[Community](#Community)
-
-[Congress](#Congress)
-
-[Districts](#Districts)
-
-[Event Listings](#Event-Listings)
-
-[Geographic](#Geographic)
-
-[Most Popular](#Most-Popular)
-
-[Movie Reviews](#Movie-Reviews)
-
-[Real Estate](#Real-Estate)
-
-[Semantic](#Semantic)
-
-[Times Newswire](#Times-Newswire)
-
-[Timestags](#Timestags)
+* [Article Search](#Article-Search)
+* [Best Sellers](#Best-Sellers)
+* [Campaign Finance](#Campaign-Finance)
+* [Community](#Community)
+* [Congress](#Congress)
+* [Districts](#Districts)
+* [Event Listings](#Event-Listings)
+* [Geographic](#Geographic)
+* [Most Popular](#Most-Popular)
+* [Movie Reviews](#Movie-Reviews)
+* [Real Estate](#Real-Estate)
+* [Semantic](#Semantic)
+* [Times Newswire](#Times-Newswire)
+* [Timestags](#Timestags)
 
 ---
 
