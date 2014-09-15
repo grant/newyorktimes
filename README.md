@@ -76,12 +76,16 @@ Get standardized terms that match your search query, and filter by Times diction
 
 ## Example
 
+Call the [API](http://developer.nytimes.com/docs) url directly without needing to add the API key.
+
 ```js
 var nyt = require('newyorktimes');
 nyt.query('http://api.nytimes.com/svc/semantic/v2/geocodes/query.xml?country_code=US', function (err, json) {
   console.log(json);
 });
 ```
+
+Note: HTTPS works as well.
 
 ## Tests
 
