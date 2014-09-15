@@ -1,9 +1,9 @@
-# node-nyt
+# newyorktimes
 
 A Node.js wrapper for New York Times' API.
 
 ```js
-var nyt = require('node-nyt');
+var nyt = require('newyorktimes');
 ```
 
 ## APIs
