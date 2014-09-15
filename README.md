@@ -66,3 +66,11 @@ Get links and metadata for Times articles in an up-to-the-minute stream.
 
 ### <a name="Timestags"></a>Timestags
 Get standardized terms that match your search query, and filter by Times dictionaries.
+
+## Tests
+
+Run tests with
+
+```sh
+npm test
+```
