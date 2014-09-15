@@ -67,6 +67,19 @@ Get links and metadata for Times articles in an up-to-the-minute stream.
 ### <a name="Timestags"></a>Timestags
 Get standardized terms that match your search query, and filter by Times dictionaries.
 
+## Quickstart
+
+- Reqest an API key: http://developer.nytimes.com/apps/register
+- View your keys at: http://developer.nytimes.com/apps/myapps
+- Create a file `.env` and format environment file with keys as in `test.js`
+- Follow the example
+
+## Example
+
+```js
+
+```
+
 ## Tests
 
 Run tests with

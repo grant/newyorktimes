@@ -29,6 +29,7 @@ describe('NewYorkTimes', function(){
         Times_Newswire: '',
         TimesTags: ''
       });
+      assert(true);
     });
   });
 });
