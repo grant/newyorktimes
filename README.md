@@ -80,7 +80,7 @@ Call the [API](http://developer.nytimes.com/docs) url directly without needing t
 
 ```js
 var nyt = require('newyorktimes');
-nyt.query('http://api.nytimes.com/svc/semantic/v2/geocodes/query.xml?country_code=US', function (err, json) {
+nyt.query('http://api.nytimes.com/svc/semantic/v2/geocodes/query.json?country_code=US', function (err, json) {
   console.log(json);
 });
 ```
