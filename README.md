@@ -77,7 +77,10 @@ Get standardized terms that match your search query, and filter by Times diction
 ## Example
 
 ```js
-
+var nyt = require('newyorktimes');
+nyt.query('http://api.nytimes.com/svc/semantic/v2/geocodes/query.xml?country_code=US', function (err, json) {
+  console.log(json);
+});
 ```
 
 ## Tests
