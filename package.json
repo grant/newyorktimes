@@ -1,5 +1,5 @@
 {
-  "name": "nyt",
+  "name": "newyorktimes",
   "version": "0.0.0",
   "description": "A Node.js wrapper for New York Times' API",
   "main": "index.js",
@@ -8,19 +8,19 @@
   },
   "repository": {
     "type": "git",
-    "url": "git://github.com/grant/nyt.git"
+    "url": "git://github.com/grant/newyorktimes.git"
   },
   "keywords": [
     "New",
     "York",
     "Times",
-    "nyt",
+    "newyorktimes",
     "news"
   ],
   "author": "Grant Timmerman",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/grant/nyt/issues"
+    "url": "https://github.com/grant/newyorktimes/issues"
   },
-  "homepage": "https://github.com/grant/nyt"
+  "homepage": "https://github.com/grant/newyorktimes"
 }
