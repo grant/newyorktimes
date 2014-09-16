@@ -3,7 +3,7 @@
 A Node.js wrapper for New York Times' API.
 
 ```js
-var nyt = require('newyorktimes');
+var nyt = require('newyorktimes')(keys);
 ```
 
 ## APIs
@@ -79,7 +79,23 @@ Get standardized terms that match your search query, and filter by Times diction
 Call the [API](http://developer.nytimes.com/docs) url directly without needing to add the API key.
 
 ```js
-var nyt = require('newyorktimes');
+var keys = {
+  article_search: 'API_KEY',
+  best_sellers: 'API_KEY',
+  campaign_finance: 'API_KEY',
+  community: 'API_KEY',
+  congress: 'API_KEY',
+  districts: 'API_KEY',
+  event_listings: 'API_KEY',
+  geo: 'API_KEY',
+  most_popular: 'API_KEY',
+  movie_reviews: 'API_KEY',
+  real_estate: 'API_KEY',
+  semantic: 'API_KEY',
+  times_newswire: 'API_KEY',
+  timestags: 'API_KEY'
+};
+var nyt = require('newyorktimes')(keys);
 nyt.query('http://api.nytimes.com/svc/semantic/v2/geocodes/query.json?country_code=US', function (err, json) {
   console.log(json);
 });
